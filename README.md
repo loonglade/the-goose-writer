@@ -1,7 +1,11 @@
 # <div align="center"> The Goose Writer </div>
 
+<br>
+
 | ![Front](https://github.com/loonglade/the-goose-writer/blob/main/front.png) | ![Side](https://github.com/loonglade/the-goose-writer/blob/main/side.png) |
 |---|---|
+
+<br>
 
 ### Features
 
