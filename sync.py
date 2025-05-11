@@ -1,4 +1,5 @@
-#!/usr/bin/env /root/venv/bin/python3
+#!/usr/bin/env /root/the-goose-writer/venv/bin/python3
+# Change the above line to reflect your home directory if needed
 
 import subprocess, os, time
 import RPi.GPIO as GPIO
@@ -9,7 +10,7 @@ BUTTON_PIN = 22
 GPIO.setup(BUTTON_PIN, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 def copy(channel):
-    local_folder = "/root/writings" # change for your local folder path
+    local_folder = "/root/the-goose-writer/writings" # change for your local folder path
     remote_folder = "gdrive:writings" # change for your remote folder path
 
     command = f"rclone copy {local_folder} {remote_folder}"

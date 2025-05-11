@@ -1,4 +1,6 @@
-#!/usr/bin/env /root/venv/bin/python3
+#!/usr/bin/env /root/the-goose-writer/venv/bin/python3
+# Change the above line to reflect your home directory if needed
+
 import os
 import fileinput
 import digitalio
@@ -10,9 +12,9 @@ from adafruit_epd.ssd1680 import Adafruit_SSD1680
 import logging
 
 # Set up logging
-logging.basicConfig(filename='/root/eink/eink.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s') # Change 'filename' value to reflect your home directory if needed
+logging.basicConfig(filename='/root/the-goose-writer/eink/eink.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s') # Change 'filename' value to reflect your home directory if needed
 
-CONFIG_PATH = '/root/eink/config.txt' # Change to reflect your home directory if needed
+CONFIG_PATH = '/root/the-goose-writer/eink/config.txt' # Change to reflect your home directory if needed
 
 def parse_date(date_str):
     month, day = map(int, date_str.split('_'))
@@ -21,7 +23,7 @@ def parse_date(date_str):
 
 def get_current_image_path():
     today = datetime.now()
-    directory = '/root/eink/eink_images' # Change to reflect your home directory if needed
+    directory = '/root/the-goose-writer/eink/eink_images' # Change to reflect your home directory if needed
     logging.info(f"Listing files in directory: {directory}")
     logging.info(f"Files in directory: {os.listdir(directory)}")
     

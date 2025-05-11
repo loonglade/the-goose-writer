@@ -1,4 +1,5 @@
-#!/usr/bin/env /root/venv/bin/python3
+#!/usr/bin/env /root/the-goose-writer/venv/bin/python3
+# Change the above line to reflect your home directory if needed
 
 import RPi.GPIO as GPIO
 import os, time
