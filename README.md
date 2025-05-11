@@ -1,4 +1,4 @@
-## The Goose Writer
+# <div align="center"> The Goose Writer </div>
 
 | ![Front](https://github.com/loonglade/the-goose-writer/blob/main/front.png) | ![Side](https://github.com/loonglade/the-goose-writer/blob/main/side.png) |
 |---|---|
